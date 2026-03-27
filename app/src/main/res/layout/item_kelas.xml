@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_kelas"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="4dp"
+    android:layout_marginEnd="4dp"
+    android:layout_marginBottom="10dp"
+    app:cardBackgroundColor="#111111"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="0dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView android:id="@+id/tv_nama_kelas"
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="Nama Kelas" android:textColor="#F1F5F9"
+            android:textSize="16sp" android:textStyle="bold"
+            android:layout_marginBottom="8dp" android:maxLines="2" android:ellipsize="end" />
+
+        <View android:layout_width="match_parent" android:layout_height="1dp"
+            android:background="#1AFFFFFF" android:layout_marginBottom="8dp" />
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:gravity="center_vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="👤" android:textSize="13sp" android:layout_marginEnd="8dp" />
+            <TextView android:id="@+id/tv_nama_instruktur"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="Nama Instruktur" android:textColor="#9CA3AF"
+                android:textSize="13sp" android:maxLines="1" android:ellipsize="end" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
