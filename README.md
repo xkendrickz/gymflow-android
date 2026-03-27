@@ -79,7 +79,9 @@ implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.2'
 
 ## Screenshots
 
-![WhatsApp Image 2026-03-26 at 4 20 00 PM](https://github.com/user-attachments/assets/b9934458-6fa0-45cc-a204-00c6c59399ad)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/b9934458-6fa0-45cc-a204-00c6c59399ad" width="150"/>
+</p>
 
 ## Related Repositories
 
